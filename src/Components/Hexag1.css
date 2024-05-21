@@ -1,0 +1,109 @@
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hexag1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adjust spacing as needed */
+  }
+  
+  .hexag1-row {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust spacing as needed */
+  }
+  
+  .hex, .hexa2 {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .hexag1 {
+    width: 100px;
+    height: 55px;
+    background-color: #1da1f2;
+    position: relative;
+    margin: 27.5px 0;
+    border: 2px solid black; /* Correctly specifying the border */
+    
+  }
+  
+  .hexag1::before,
+  .hexag1::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+  }
+  
+  .hexag1::before {
+    bottom: 100%;
+    border-bottom: 27.5px solid #1da1f2;
+  }
+  
+  .hexag1::after {
+    top: 100%;
+    border-top: 27.5px solid #1da1f2;
+  }
+  
+  .rectangle {
+    width: 700px;
+    height: auto;
+    background-color: #fbbf24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hexag1-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    
+    .hexag1-icon {
+      width: 50%; /* Adjust as needed */
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+.hexag1-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .hexag1-icon {
+    width: 50%; /* Adjust as needed */
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

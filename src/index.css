@@ -1,0 +1,94 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* index.css */
+/* ------------------- */
+@font-face {
+  font-family: 'Novembm';
+  src: url('./fonts/Novembm.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Novembm', sans-serif;
+}
+
+/* ------------------ */
+.container1 {
+  position: relative;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.hex {
+  display: inline-block;
+  filter: url('#goo');
+  color: rgb(190, 190, 240);
+  width: 35%;
+  position: absolute;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.hex::before {
+  content: "";
+  display: block;
+  background: currentColor;
+  padding-top: 86.6%; /* 100%*cos(30) */
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hex .hex-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* You can adjust this to any color you want for the text */
+}
+
+.pos0 {
+  top: 0%;
+  left: 30%;
+}
+
+.pos1 {
+  top: 17%;
+  left: 0%;
+}
+
+.pos2 {
+  top: 17%;
+  left: 60%;
+}
+
+.pos4 {
+  top: 51%;
+  left: 0%;
+}
+
+.pos5 {
+  top: 68%;
+  left: 30%;
+}
+
+.pos6 {
+  top: 51%;
+  left: 60%;
+}
+
+.zoom-effect {
+  transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}

@@ -9,6 +9,8 @@ export default {
         "custom-black":
           "0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.2)",
         "custom-purple": "#5c429A",
+        "extra-relaxed": "1.8",
+        customPara: "#05253B",
       },
     },
   },

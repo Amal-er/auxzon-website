@@ -11,7 +11,7 @@ import footerbg from "../assets/footerbg.png";
 
 function Footer() {
   return (
-    <footer className="bg-customBlue text-white py-8">
+    <footer className="bg-customBlue text-white py-8 px-5">
       <div className="container mx-auto flex flex-wrap justify-between items-center">
         <div className="w-full sm:w-auto mb-4 sm:mb-0 flex flex-col items-center">
           <img className="w-24 " src={company} alt="" />
@@ -44,10 +44,13 @@ function Footer() {
           <ul className="flex flex-col">
             <li className="mr-4 mb-2 text-black text-sm">
               <p>addresss</p>
-              <p>City, State ZIP Cod</p>
-              <p>Email: info@Auxzon.com</p>
-              <p>Phone: +1-555-123-4567</p>
-              <p>Fax: +1-555-987-6543</p>
+              <p>
+                Asset Corridor, Ponekkara, <br /> Edappally, Kochi, Ernakulam,
+                Kerala 682024
+              </p>
+              <p>Email: Contact@auxzon.com</p>
+              <p>Phone: +91 90721 25666</p>
+              {/* <p>Fax: +1-555-987-6543</p> */}
             </li>
           </ul>
         </div>
@@ -56,7 +59,7 @@ function Footer() {
           <ul className="flex flex-wrap col-start-2">
             <div className="w-1/2">
               <li className="mr-4">
-                <a href="#" className=" text-black text-sm hover:text-gray-400">
+                <a href="/" className=" text-black text-sm hover:text-gray-400">
                   Home
                 </a>
               </li>
@@ -65,7 +68,7 @@ function Footer() {
                   href="about"
                   className=" text-black text-sm hover:text-gray-400"
                 >
-                  about
+                  About
                 </a>
               </li>
               <li className="mr-4">
@@ -73,11 +76,11 @@ function Footer() {
                   href="services"
                   className=" text-black text-sm hover:text-gray-400"
                 >
-                  our_Services
+                  Our Services
                 </a>
               </li>
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 px-4">
               <li className="mr-4">
                 <a
                   href="hexa"
@@ -99,7 +102,7 @@ function Footer() {
                   href="/contact"
                   className=" text-black text-sm hover:text-gray-400"
                 >
-                  Contact us
+                  Contact
                 </a>
               </li>
             </div>

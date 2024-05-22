@@ -5,7 +5,6 @@ const Hexagon = ({ children }) => {
   return (
     <div className="hexagon">
       <div className="hexagon-inner">
-        
         <div className="hexagon-content">{children}</div>
       </div>
     </div>

@@ -27,15 +27,16 @@ const serviceDetails = {
   Manufacturing:
     "In manufacturing, Our services is applied in predictive maintenance, quality control, demand forecasting, and supply chain optimization to reduce costs and increase efficiency",
   Transportation:
-    "Transportation services offer cutting-edge solutions to improve logistics, fleet management, and supply chain operations.",
+    "In Transportation and Logistics, our services will help optimize routing, improve order processing activities, and expedite manufacturing operations. Data-driven solutions will provide transparency to the entire supply chain and predict demand.",
   Insurance:
-    "Insurance services provide tailored solutions for insurers to manage risk, streamline processes, and improve customer experience.",
+    "Insurance providers can identify high-risk customers. They can also customize their services by identifying clients more likely to file claims by analyzing age, occupation, or location.  It can also streamline operations and reduce costs.",
+
   "Public Sector":
     "Governments and public agencies can use our services for urban planning, environmental monitoring, resource management, and policy making.",
   Marketing:
-    "Marketing services offer data-driven strategies to help businesses effectively reach their target audience and drive growth.",
+    "Data can do wonders in marketing and advertisements. With data, advertising can become more optimized by understanding the target audience. It will help create personalizing Ad Experiences and detect fraudulent or invalid clicks or impressions generated to artificially inflate advertising costs.",
   Education:
-    "Our service in education can help in student performance analysis, curriculum development, and personalized learning experiences.",
+    "The education sector can have several benefits with data. Our service in education can help with student performance analysis and curriculum development. Education providers can ensure personalized learning experiences with this.",
 };
 
 function Services() {
@@ -223,7 +224,7 @@ function Services() {
                   <p className="mt-2 text-center">Transportation</p>
                 </div>
                 {/* Insurance */}
-                <div className="flex flex-col items-center md:pl-64">
+                <div className="flex flex-col items-center md:pl-72">
                   <div
                     className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-white flex justify-center items-center shadow-lg"
                     style={{
@@ -241,7 +242,7 @@ function Services() {
                   <p className="mt-2 text-center">Insurance</p>
                 </div>
                 {/* Public Sector */}
-                <div className="flex flex-col items-center md:pl-64">
+                <div className="flex flex-col items-center md:pl-72">
                   <div
                     className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-white flex justify-center items-center shadow-lg"
                     style={{
@@ -259,7 +260,7 @@ function Services() {
                   <p className="mt-2 text-center">Public Sector</p>
                 </div>
                 {/* Marketing */}
-                <div className="flex flex-col items-center md:pl-64">
+                <div className="flex flex-col items-center md:pl-72">
                   <div
                     className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-white flex justify-center items-center shadow-lg"
                     style={{
@@ -277,7 +278,7 @@ function Services() {
                   <p className="mt-2 text-center">Marketing</p>
                 </div>
                 {/* Education */}
-                <div className="flex flex-col items-center md:pl-64">
+                <div className="flex flex-col items-center md:pl-72">
                   <div
                     className="w-24 h-24 sm:w-32 sm:h-32 rounded-full bg-white flex justify-center items-center shadow-lg"
                     style={{

@@ -25,11 +25,14 @@ function Home() {
                   <h1 className="text-2xl md:text-xl lg:text-xl xl:text-4xl font-medium">
                     auxzon
                   </h1>
-                  <p className="mt-2 extra-relaxed md:mt-4 text-sm md:text-base lg:text-lg xl:text-base">
-                    Unveiling the power of your data. Empower yourself <br />{" "}
-                    with auxzon and transform your data into a strategic <br />{" "}
-                    asset for sustainable growth and innovation
-                  </p>
+                  <div className="box mt-2 md:mt-4 p-4 border border-gray-300 rounded-md">
+                    <p className="extra-relaxed text-sm md:text-base lg:text-lg xl:text-base">
+                      Unveiling the power of your data. Empower yourself <br />
+                      with auxzon and transform your data into a strategic{" "}
+                      <br />
+                      asset for sustainable growth and innovation
+                    </p>
+                  </div>
                 </div>
               </div>
               {/* Globe image */}
@@ -59,25 +62,26 @@ function Home() {
               </h1>
             </div>
             <div className="px-4 md:px-60">
-              <p className="text-sm leading-relaxed md:text-base md:leading-normal text-customPara lg:text-base xl:text-base">
-                Data is the lifeblood of modern civilization. The world is
-                interconnected, and data fuels advancements in artificial
-                intelligence, machine learning, and predictive analytics. Those
-                who explore the unending possibilities of data will thrive in
-                their business. From healthcare to finance, education to
-                marketing, data shapes business policies, products, and
-                services. It enhances efficiency, identifies opportunities, and
-                mitigates risks. auxzon believes that data isn't just
-                information; it's the cornerstone of progress, fostering growth,
-                and driving change in our dynamic global landscape. Our
-                supportive advice will open doors to unexplored areas of data
-                analysis, through which any business can find effective
-                solutions to their business problems and improve their
-                operational efficiency to the next level by making
-                evidence-based choices.
-              </p>
-
-              <button className="bg-custom-purple text-white hover:text-black hover:bg-white rounded-md border-2 border-custom-purple mt-3 px-4 py-2 ">
+              <div className="box p-4 border border-gray-300 rounded-md">
+                <p className="text-sm leading-relaxed md:text-base md:leading-normal text-customPara lg:text-base xl:text-base">
+                  Data is the lifeblood of modern civilization. The world is
+                  interconnected, and data fuels advancements in artificial
+                  intelligence, machine learning, and predictive analytics.
+                  Those who explore the unending possibilities of data will
+                  thrive in their business. From healthcare to finance,
+                  education to marketing, data shapes business policies,
+                  products, and services. It enhances efficiency, identifies
+                  opportunities, and mitigates risks. auxzon believes that data
+                  isn't just information; it's the cornerstone of progress,
+                  fostering growth, and driving change in our dynamic global
+                  landscape. Our supportive advice will open doors to unexplored
+                  areas of data analysis, through which any business can find
+                  effective solutions to their business problems and improve
+                  their operational efficiency to the next level by making
+                  evidence-based choices.
+                </p>
+              </div>
+              <button className="bg-custom-purple text-white hover:text-black hover:bg-white rounded-md border-2 border-custom-purple mt-3 px-4 py-2">
                 Everything About Analytix Marketing
               </button>
             </div>

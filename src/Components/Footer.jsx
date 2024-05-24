@@ -49,7 +49,7 @@ function Footer() {
                 Kerala 682024
               </p>
               <p>Email: Contact@auxzon.com</p>
-              <p>Phone: +91 90721 25666</p>
+              <p>Phone: +91 9072168666</p>
               {/* <p>Fax: +1-555-987-6543</p> */}
             </li>
           </ul>

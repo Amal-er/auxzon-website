@@ -28,49 +28,50 @@ function Hexa() {
           backgroundSize: "cover",
         }}
       >
-        <div className="pt-6">
+        {/*--------------------------  */}
+        {/* <div className="pt-6">
           <div className="flex justify-center items-center">
             <div className="container1 relative">
               <div
                 className="hex pos0 flex justify-center items-center"
                 style={{ backgroundImage: `url(${assess})` }}
               >
-                {/* <img src={assess} alt="" className="icon" /> */}
+               
                 <Hexagon />
               </div>
               <div
                 className="hex pos1 flex justify-center items-center"
                 style={{ backgroundImage: `url(${achieve})` }}
               >
-                {/* <img src={achieve} alt="" className="icon" /> */}
+              
               </div>
               <div
                 className="hex pos2 flex justify-center items-center"
                 style={{ backgroundImage: `url(${act})` }}
               >
-                {/* <img src={act} alt="" className="icon" /> */}
+             
               </div>
               <div
                 className="hex pos4 flex justify-center items-center"
                 style={{ backgroundImage: `url(${advice})` }}
               >
-                {/* <img src={advice} alt="" className="icon" /> */}
+             
               </div>
               <div
                 className="hex pos5 flex justify-center items-center"
                 style={{ backgroundImage: `url(${analyze})` }}
               >
-                {/* <img src={analyze} alt="" className="icon" /> */}
+           
               </div>
               <div
                 className="hex pos6 flex justify-center items-center"
                 style={{ backgroundImage: `url(${assure})` }}
               >
-                {/* <img src={assure} alt="" className="icon" /> */}
+               
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Hexag1 Container */}
         <div className="hexag1-container">

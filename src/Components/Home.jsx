@@ -4,6 +4,7 @@ import banner from "../assets/banner.png";
 import background2 from "../assets/backgroundimg2.png";
 import assess from "../icons/Assess.png";
 import "../Components/style.css"; // Import your CSS file where you define transition effects
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -14,7 +15,7 @@ function Home() {
           style={{
             backgroundImage: `url(${banner})`,
             backgroundSize: "cover",
-            transition: "background-image 0.5s ease-in-out", // Add transition effect
+            transition: "background-image 0.5s ease-in-out",
           }}
         >
           <div className="w-full h-screen flex flex-col justify-center items-center">
@@ -32,6 +33,11 @@ function Home() {
                       <br />
                       asset for sustainable growth and innovation
                     </p>
+                    <Link to="/about">
+                      <button className="readmore-button bg-custom-purple text-white hover:text-black hover:bg-white rounded-md border-2 border-custom-purple mt-3">
+                        Readmore
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -52,7 +58,7 @@ function Home() {
           style={{
             backgroundImage: `url(${background2})`,
             backgroundSize: "cover",
-            transition: "background-image 0.5s ease-in-out", // Add transition effect
+            transition: "background-image 0.5s ease-in-out",
           }}
         >
           <div className="flex flex-col justify-center items-start p-6">
@@ -87,7 +93,8 @@ function Home() {
             </div>
           </div>
           {/* video */}
-          <div className="w-full h-72  p-14 ">
+          {/* ----------------------------- */}
+          {/* <div className="w-full h-72  p-14 ">
             <iframe
               className="w-full h-full"
               src="https://www.youtube.com/embed/7fykED87Z8I"
@@ -96,10 +103,10 @@ function Home() {
               allowfullscreen
               title="YouTube Video"
             ></iframe>
-          </div>
-
+          </div> */}
+          {/* ---------------------------- */}
           {/* hexagonal */}
-          <div>
+          {/* <div>
             <div className="flex justify-center items-center">
               <div className="container1">
                 <div
@@ -141,7 +148,7 @@ function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* ------------------------------------------ */}
         </div>
       </div>

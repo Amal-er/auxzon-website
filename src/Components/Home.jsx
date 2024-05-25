@@ -1,11 +1,11 @@
 import React from "react";
-import globe from "../assets/globe.png";
+// import globe from "../assets/globe.png";
 import banner from "../assets/banner.png";
-import background2 from "../assets/backgroundimg2.png";
+import background2 from "../assets/background2.png";
 import assess from "../icons/Assess.png";
 import "../Components/style.css"; // Import your CSS file where you define transition effects
 import { Link } from "react-router-dom";
-
+import custom from "../assets/custom.png";
 function Home() {
   return (
     <>
@@ -26,7 +26,7 @@ function Home() {
                   <h1 className="text-2xl md:text-xl lg:text-xl xl:text-4xl font-medium">
                     auxzon
                   </h1>
-                  <div className="box mt-2 md:mt-4 p-4 border border-gray-300 rounded-md">
+                  <div className="box mt-2 md:mt-4 rounded-md">
                     <p className="extra-relaxed text-sm md:text-base lg:text-lg xl:text-base">
                       Unveiling the power of your data. Empower yourself <br />
                       with auxzon and transform your data into a strategic{" "}
@@ -42,33 +42,34 @@ function Home() {
                 </div>
               </div>
               {/* Globe image */}
-              <div className="p-4 md:p-8 md:w-1/2 flex justify-center items-center">
+              <div className="p-8 md:p-8 md:w-1/2 flex justify-center items-center">
                 <img
-                  src={globe}
-                  alt=""
-                  className="w-40 md:w-60 lg:w-80 xl:w-96 h-auto"
+                  src={custom}
+                  alt="custom"
+                  className="w-96 md:w-112 lg:w-128 xl:w-144 h-auto"
                 />
               </div>
             </div>
           </div>
         </div>
+
         {/* mastering */}
         <div
-          className="total"
+          className="total2"
           style={{
             backgroundImage: `url(${background2})`,
             backgroundSize: "cover",
             transition: "background-image 0.5s ease-in-out",
           }}
         >
-          <div className="flex flex-col justify-center items-start p-6">
-            <div className="py-4 md:py-8 pl-4 md:pl-60">
+          <div className="flex flex-col justify-center items-start py-6">
+            <div className="py-4  pl-4 md:pl-60">
               <h1 className="text-2xl md:text-xl lg:text-2xl xl:text-4xl font-normal">
                 Mastering Business with Data
               </h1>
             </div>
             <div className="px-4 md:px-60">
-              <div className="box p-4 border border-gray-300 rounded-md">
+              <div className="box   border-gray-300 rounded-md">
                 <p className="text-sm leading-relaxed md:text-base md:leading-normal text-customPara lg:text-base xl:text-base">
                   Data is the lifeblood of modern civilization. The world is
                   interconnected, and data fuels advancements in artificial
@@ -87,7 +88,7 @@ function Home() {
                   evidence-based choices.
                 </p>
               </div>
-              <button className="bg-custom-purple text-white hover:text-black hover:bg-white rounded-md border-2 border-custom-purple mt-3 px-4 py-2">
+              <button className="bg-custom-purple text-white hover:text-black hover:bg-white rounded-md border-2 border-custom-purple mt-3 px-4 py-2 ">
                 Everything About Analytix Marketing
               </button>
             </div>

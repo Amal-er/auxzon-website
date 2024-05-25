@@ -20,7 +20,7 @@ function Navbar() {
         </Link>
 
         {/* Desktop Links */}
-        <div className="hidden sm:flex sm:items-center">
+        <div className="hidden sm:flex sm:items-center gap-3">
           <Link
             to="/"
             className="text-{#05253B} hover:text-gray-200 transition duration-300 mx-4"

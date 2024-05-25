@@ -3,6 +3,8 @@
 
 .total {
   transition: background-image 0.5s ease-in-out;
+  width: full;
+ 
 }
 
 .readmore-button {
@@ -14,4 +16,12 @@
 .readmore-button:hover {
   color: black; /* Ensure the hover color remains consistent */
   background-color: white;
+}
+.total2{
+  width: full;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }

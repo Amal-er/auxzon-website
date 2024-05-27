@@ -39,18 +39,18 @@ function Navbar() {
           >
             Our Services
           </Link>
-          <Link
+          {/* <Link
             to="/hexa"
             className="text-{#05253B} hover:text-gray-200 transition duration-300 mx-4"
           >
             Auxzon Hexa
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             to="/careers"
             className="text-{#05253B} hover:text-gray-200 transition duration-300 mx-4"
           >
             Careers
-          </Link>
+          </Link> */}
           <Link
             to="/contact"
             className="text-{#05253B} hover:text-gray-200 transition duration-300 mx-4"
@@ -109,20 +109,20 @@ function Navbar() {
         >
           Our Services
         </Link>
-        <Link
+        {/* <Link
           to="/hexa"
           className="block text-black text-2xl font-semibold mb-4"
           onClick={toggleMenu}
         >
           Auxzon Hexa
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           to="/careers"
           className="block text-black text-2xl font-semibold mb-4"
           onClick={toggleMenu}
         >
           Careers
-        </Link>
+        </Link> */}
         <Link
           to="/contact"
           className="block text-black text-2xl font-semibold mb-4"

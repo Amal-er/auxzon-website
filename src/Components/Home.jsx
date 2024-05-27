@@ -23,7 +23,7 @@ function Home() {
               {/* Text content */}
               <div className="p-4 md:p-8 md:w-1/2 flex justify-center items-center">
                 <div className="flex flex-col text-center md:text-left">
-                  <h1 className="text-2xl md:text-xl lg:text-xl xl:text-4xl font-medium">
+                  <h1 className="text-2xl md:text-3xl lg:text-xl xl:text-4xl font-medium">
                     auxzon
                   </h1>
                   <div className="box mt-2 md:mt-4 rounded-md">
@@ -88,9 +88,11 @@ function Home() {
                   evidence-based choices.
                 </p>
               </div>
-              <button className="bg-custom-purple text-white hover:text-black hover:bg-white rounded-md border-2 border-custom-purple mt-3 px-4 py-2 ">
-                Everything About Analytix Marketing
-              </button>
+              <Link to="/analytixmarketing">
+                <button className="bg-custom-purple text-white hover:text-black hover:bg-white rounded-md border-2 border-custom-purple mt-3 px-4 py-2">
+                  Everything About Analytix Marketing
+                </button>
+              </Link>
             </div>
           </div>
           {/* video */}

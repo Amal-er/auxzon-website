@@ -23,8 +23,8 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/hexa" element={<Hexa />} />
-          <Route path="/careers" element={<Career />} />
+          {/* <Route path="/hexa" element={<Hexa />} /> */}
+          {/* <Route path="/careers" element={<Career />} /> */}
           <Route path="/contact" element={<Contact />} />
           <Route
             path="/analytixmarketing"

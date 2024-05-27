@@ -65,7 +65,7 @@ function Footer() {
               </li>
               <li className="mr-4">
                 <a
-                  href="about"
+                  href="/about"
                   className=" text-black text-sm hover:text-gray-400"
                 >
                   About
@@ -81,22 +81,22 @@ function Footer() {
               </li>
             </div>
             <div className="w-1/2 px-4">
-              <li className="mr-4">
+              {/* <li className="mr-4">
                 <a
                   href="hexa"
                   className=" text-black text-sm hover:text-gray-400"
                 >
                   auxzonHexa
                 </a>
-              </li>
-              <li className="mr-4">
+              </li> */}
+              {/* <li className="mr-4">
                 <a
                   href="careers"
                   className=" text-black text-sm hover:text-gray-400"
                 >
                   Carrers
                 </a>
-              </li>
+              </li> */}
               <li className="mr-4">
                 <a
                   href="/contact"

@@ -5,9 +5,9 @@ import { FaLocationDot } from "react-icons/fa6";
 import { IoIosCall } from "react-icons/io";
 import { IoIosMail } from "react-icons/io";
 import { CiFacebook } from "react-icons/ci";
-import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { IoLogoInstagram } from "react-icons/io";
 
+import { CiLinkedin } from "react-icons/ci";
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -88,9 +88,27 @@ const Contact = () => {
                 Social Media
               </h2>
               <div className="flex gap-5">
-                <CiFacebook className="text-2xl" />
-                <FaInstagram className="text-2xl" />
-                <FaXTwitter className="text-2xl" />
+                <a
+                  href="https://www.facebook.com/auxzon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <CiFacebook className="text-2xl" />
+                </a>
+                <a
+                  href="https://www.instagram.com/auxzons/?fbclid=IwAR1kcfqM4oEDtv1ChPL8uf_HEhZdCNW-4dQVF05TCcYHCDzIaw9FfGkXGJY"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <IoLogoInstagram className="text-2xl" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/102232019/admin/feed/posts/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <CiLinkedin className="text-2xl" />
+                </a>
               </div>
             </div>
           </div>
